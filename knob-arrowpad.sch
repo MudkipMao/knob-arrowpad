@@ -1,4 +1,232 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1050 3450 1650 3450
+Wire Wire Line
+	1050 2450 2650 2450
+Connection ~ 1650 1200
+Wire Wire Line
+	1650 1200 1050 1200
+Wire Wire Line
+	3300 850  3300 1850
+Wire Wire Line
+	2300 850  2300 1850
+Wire Wire Line
+	1300 850  1300 1850
+Text GLabel 1050 3450 0    50   Input ~ 0
+ROW2
+Text GLabel 1050 2450 0    50   Input ~ 0
+ROW1
+Text GLabel 1050 1200 0    50   Input ~ 0
+ROW0
+Text GLabel 3300 850  1    50   Input ~ 0
+COL2
+Text GLabel 2300 850  1    50   Input ~ 0
+COL1
+Text GLabel 1300 850  1    50   Input ~ 0
+COL0
+Wire Wire Line
+	2650 3450 1650 3450
+Connection ~ 2650 3450
+Connection ~ 1650 3450
+Wire Wire Line
+	3650 3450 2650 3450
+Connection ~ 3300 1850
+Wire Wire Line
+	3300 4100 3300 1850
+Wire Wire Line
+	2300 3100 2300 1850
+Connection ~ 2300 3100
+Connection ~ 2300 1850
+Wire Wire Line
+	2300 4100 2300 3100
+Connection ~ 1300 1850
+Wire Wire Line
+	1300 4100 1300 1850
+Wire Wire Line
+	2650 1200 1650 1200
+Connection ~ 2650 1200
+Wire Wire Line
+	3650 1200 2650 1200
+$Comp
+L Device:D D?
+U 1 1 5ECD0AC2
+P 3650 3600
+F 0 "D?" V 3604 3680 50  0000 L CNN
+F 1 "1N414B" V 3695 3680 50  0000 L CNN
+F 2 "" H 3650 3600 50  0001 C CNN
+F 3 "~" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5ECD03D6
+P 2650 3600
+F 0 "D?" V 2604 3680 50  0000 L CNN
+F 1 "1N414B" V 2695 3680 50  0000 L CNN
+F 2 "" H 2650 3600 50  0001 C CNN
+F 3 "~" H 2650 3600 50  0001 C CNN
+	1    2650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5ECCFD35
+P 1650 3600
+F 0 "D?" V 1604 3680 50  0000 L CNN
+F 1 "1N414B" V 1695 3680 50  0000 L CNN
+F 2 "" H 1650 3600 50  0001 C CNN
+F 3 "~" H 1650 3600 50  0001 C CNN
+	1    1650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5ECCF6C6
+P 2650 2600
+F 0 "D?" V 2604 2680 50  0000 L CNN
+F 1 "1N414B" V 2695 2680 50  0000 L CNN
+F 2 "" H 2650 2600 50  0001 C CNN
+F 3 "~" H 2650 2600 50  0001 C CNN
+	1    2650 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5ECCED1D
+P 3650 1350
+F 0 "D?" V 3604 1430 50  0000 L CNN
+F 1 "1N414B" V 3695 1430 50  0000 L CNN
+F 2 "" H 3650 1350 50  0001 C CNN
+F 3 "~" H 3650 1350 50  0001 C CNN
+	1    3650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5ECCE6AE
+P 2650 1350
+F 0 "D?" V 2604 1430 50  0000 L CNN
+F 1 "1N414B" V 2695 1430 50  0000 L CNN
+F 2 "" H 2650 1350 50  0001 C CNN
+F 3 "~" H 2650 1350 50  0001 C CNN
+	1    2650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5ECCDDE5
+P 1650 1350
+F 0 "D?" V 1604 1430 50  0000 L CNN
+F 1 "1N414B" V 1695 1430 50  0000 L CNN
+F 2 "" H 1650 1350 50  0001 C CNN
+F 3 "~" H 1650 1350 50  0001 C CNN
+	1    1650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC9866
+P 1650 4100
+F 0 "SW?" H 1575 4150 50  0000 L CNN
+F 1 "LEFT" H 1575 4050 39  0000 L CNN
+F 2 "" H 1650 4100 50  0001 C CNN
+F 3 "" H 1650 4100 50  0001 C CNN
+	1    1650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC8A8A
+P 3650 4100
+F 0 "SW?" H 3575 4150 50  0000 L CNN
+F 1 "RIGHT" H 3575 4050 39  0000 L CNN
+F 2 "" H 3650 4100 50  0001 C CNN
+F 3 "" H 3650 4100 50  0001 C CNN
+	1    3650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC6F7B
+P 2650 4100
+F 0 "SW?" H 2575 4150 50  0000 L CNN
+F 1 "DOWN" H 2575 4050 39  0000 L CNN
+F 2 "" H 2650 4100 50  0001 C CNN
+F 3 "" H 2650 4100 50  0001 C CNN
+	1    2650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC52E5
+P 2650 3100
+F 0 "SW?" H 2575 3150 50  0000 L CNN
+F 1 "UP" H 2600 3050 39  0000 L CNN
+F 2 "" H 2650 3100 50  0001 C CNN
+F 3 "" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC0DA9
+P 1650 1850
+F 0 "SW?" H 1575 1900 50  0000 L CNN
+F 1 "DEL" H 1600 1800 39  0000 L CNN
+F 2 "" H 1650 1850 50  0001 C CNN
+F 3 "" H 1650 1850 50  0001 C CNN
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC3FD8
+P 3650 1850
+F 0 "SW?" H 3575 1900 50  0000 L CNN
+F 1 "PGDN" H 3575 1800 39  0000 L CNN
+F 2 "" H 3650 1850 50  0001 C CNN
+F 3 "" H 3650 1850 50  0001 C CNN
+	1    3650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5ECC2CF7
+P 2650 1850
+F 0 "SW?" H 2575 1900 50  0000 L CNN
+F 1 "PGUP" H 2575 1800 39  0000 L CNN
+F 2 "" H 2650 1850 50  0001 C CNN
+F 3 "" H 2650 1850 50  0001 C CNN
+	1    2650 1850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4075 550  4075 4425
+Text Notes 575  650  0    50   ~ 0
+Switch Matrix
+Wire Notes Line
+	550  550  4075 550 
+Wire Notes Line
+	550  4425 4075 4425
+Wire Notes Line
+	550  550  550  4425
+Wire Notes Line
+	550  675  1125 675 
+Wire Notes Line
+	1125 675  1125 550 
 $EndSCHEMATC
